@@ -5,7 +5,7 @@ window.onload = function () { //Assim que janela carregar essa função vai ser 
 
     this.document.addEventListener("keydown", keyPush) //Executa a função, quando uma teclar for pressionada.
 
-    this.setInterval(game, 60); //Cada intervalo de 60ms executa a função.
+    this.setInterval(game, 100); //Cada intervalo de 60ms executa a função.
 
     //Velocidade
     const vel = 1;   //Velocidade constante é 1
@@ -17,7 +17,7 @@ window.onload = function () { //Assim que janela carregar essa função vai ser 
 
     //Tamanho dos Blocos
     var tb = 20; //Cada bloco vai ser 20x20
-    var qb = 20; //Quantidade de blocos
+    var qb = 30; //Quantidade de blocos
 
     //Posição Maçã
     var ax = 10; //Inicia ponto X em 25. (Colocar como random depois)
